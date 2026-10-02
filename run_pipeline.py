@@ -5,7 +5,7 @@ Runs every stage in order, each consuming the previous stage's output,
 so a fresh clone only needs:
 
     pip install -r requirements.txt
-    python3 run_pipeline.py
+    python run_pipeline.py
     streamlit run app.py
 
 This does not replace the individual scripts (generate_dataset.py,
